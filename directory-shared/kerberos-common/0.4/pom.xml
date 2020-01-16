@@ -1,0 +1,26 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>directory-shared</groupId>
+  <artifactId>kerberos-common</artifactId>
+  <name>Kerberos Common</name>
+  <version>0.4</version>
+  <description>Common Kerberos 5 classes.</description>
+  <inceptionYear>2005</inceptionYear>
+  <dependencies>
+    <dependency>
+      <groupId>directory-asn1</groupId>
+      <artifactId>asn1-der</artifactId>
+      <version>0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>directory-shared</groupId>
+      <artifactId>ldap-common</artifactId>
+      <version>0.9</version>
+    </dependency>
+    <dependency>
+      <groupId>bouncycastle</groupId>
+      <artifactId>bcprov-jdk14</artifactId>
+      <version>124</version>
+    </dependency>
+  </dependencies>
+</project>
