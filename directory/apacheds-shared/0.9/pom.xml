@@ -1,0 +1,18 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>directory</groupId>
+  <artifactId>apacheds-shared</artifactId>
+  <name>ApacheDS Shared</name>
+  <version>0.9</version>
+  <description>Created to eliminate cyclic project dependencies between the core
+    and the maven plugin.  Any code shared across modules in general 
+    can go here so long as it does not depend on other modules.</description>
+  <inceptionYear>2003</inceptionYear>
+  <dependencies>
+    <dependency>
+      <groupId>directory-shared</groupId>
+      <artifactId>ldap-common</artifactId>
+      <version>0.9</version>
+    </dependency>
+  </dependencies>
+</project>
