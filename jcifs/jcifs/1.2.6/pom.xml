@@ -1,0 +1,14 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jcifs</groupId>
+  <artifactId>jcifs</artifactId>
+  <version>1.2.6</version>
+
+  <distributionManagement>
+    <relocation>
+      <groupId>org.samba.jcifs</groupId>
+      <artifactId>jcifs</artifactId>
+    </relocation>
+  </distributionManagement>
+
+</project>
