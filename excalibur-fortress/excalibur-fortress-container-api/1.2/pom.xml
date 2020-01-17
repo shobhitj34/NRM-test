@@ -1,0 +1,33 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>excalibur-fortress</groupId>
+  <artifactId>excalibur-fortress-container-api</artifactId>
+  <name>Excalibur Fortress Container API</name>
+  <version>1.2</version>
+  <description>Fortress contains a framework to help you create your own avalon
+containers. It boasts asynchronous management of your component
+instances, high scalability, easier maintenance of your code, and
+easy embedding into various environments like servlet engines.</description>
+  <dependencies>
+    <dependency>
+      <groupId>avalon-framework</groupId>
+      <artifactId>avalon-framework-api</artifactId>
+      <version>4.3</version>
+    </dependency>
+    <dependency>
+      <groupId>avalon-framework</groupId>
+      <artifactId>avalon-framework-impl</artifactId>
+      <version>4.3</version>
+    </dependency>
+    <dependency>
+      <groupId>d-haven-event</groupId>
+      <artifactId>d-haven-event</artifactId>
+      <version>1.0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>d-haven-managed-pool</groupId>
+      <artifactId>d-haven-managed-pool</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
+</project>

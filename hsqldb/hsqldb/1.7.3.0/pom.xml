@@ -1,0 +1,7 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>hsqldb</groupId>
+  <artifactId>hsqldb</artifactId>
+  <name>hsqldb</name>
+  <version>1.7.3.0</version>
+</project>

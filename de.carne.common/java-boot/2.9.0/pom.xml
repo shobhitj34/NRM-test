@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.carne.common</groupId>
+  <artifactId>java-boot</artifactId>
+  <version>2.9.0</version>
+  <name>java-boot</name>
+  <description>Java library for booting up java applications from a self-contained jar</description>
+  <url>https://github.com/hdecarne/java-boot</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License, Version 3</name>
+      <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hdecarne</id>
+      <name>Holger de Carne</name>
+      <email>hdecarne@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/hdecarne/java-boot.git</url>
+  </scm>
+</project>
