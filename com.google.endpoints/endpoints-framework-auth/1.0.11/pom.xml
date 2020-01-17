@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.google.endpoints</groupId>
+  <artifactId>endpoints-framework-auth</artifactId>
+  <version>1.0.11</version>
+  <name>Endpoints API Management - Framework Auth Integration</name>
+  <description>Enables use of endpoints-management-auth with endpoints-framework</description>
+  <url>https://cloud.google.com/endpoints/docs/frameworks/java</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>temiola@google.com</id>
+      <name>Tim Emiola</name>
+      <email>temiola@google.com</email>
+      <organization>Google, Inc.</organization>
+      <organizationUrl>https://www.google.com</organizationUrl>
+    </developer>
+    <developer>
+      <id>yangguan@google.com</id>
+      <name>Yang Guan</name>
+      <email>yangguan@google.com</email>
+      <organization>Google, Inc.</organization>
+      <organizationUrl>https://www.google.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/cloudendpoints/endpoints-management-java</connection>
+    <developerConnection>scm:git:https://github.com/cloudendpoints/endpoints-management-java</developerConnection>
+    <url>scm:git:https://github.com/cloudendpoints/endpoints-management-java</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.endpoints</groupId>
+      <artifactId>endpoints-management-auth</artifactId>
+      <version>1.0.11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.endpoints</groupId>
+      <artifactId>endpoints-framework</artifactId>
+      <version>2.0.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>2.0.90-beta</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>3.2.16.RELEASE</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
