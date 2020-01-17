@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.inferred</groupId>
+  <artifactId>freebuilder</artifactId>
+  <version>1.14.1</version>
+  <name>@FreeBuilder</name>
+  <description>Automatic generation of the Builder pattern for Java 1.6+</description>
+  <url>http://freebuilder.inferred.org/</url>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chrisalice</id>
+      <name>Chris Purcell</name>
+      <email>Chris.Purcell.39@gmail.com</email>
+      <timezone>Europe/London</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/google/freebuilder.git</connection>
+    <developerConnection>scm:git:git@github.com:google/freebuilder.git</developerConnection>
+    <url>https://github.com/google/freebuilder</url>
+  </scm>
+</project>
