@@ -1,0 +1,16 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cas</groupId>
+  <artifactId>casclient</artifactId>
+  <name>Central Authentication Service Client</name>
+  <version>2.0.11</version>
+  <description>Yale ITS Central Authentication Service Client</description>
+  <url>http://www.yale.edu/tp/cas/</url>
+  <dependencies>
+    <dependency>
+      <groupId>servletapi</groupId>
+      <artifactId>servletapi</artifactId>
+      <version>2.3</version>
+    </dependency>
+  </dependencies>
+</project>
